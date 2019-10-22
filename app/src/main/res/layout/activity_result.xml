@@ -5,43 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".Main2Activity">
+    tools:context=".Result">
 
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+
         android:gravity="center"
-        android:text="CATCH THE APPLE"
+        android:text="GAME OVER"
         android:textColor="#FFF8F8"
-        android:textSize="40dp"
+        android:textSize="50dp"
         android:textStyle="bold"
         android:typeface="serif" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center"
-        android:layout_marginRight="-6dp"
-        android:layout_marginBottom="309dp"
-        android:gravity="center"
-        android:text="Rules: Try to catch as many apples as possible. Fall below a score of -5 and the game is over."
-        android:textColor="#000000"
-        android:textStyle="bold" />
-
     <Button
         android:id="@+id/button"
-        android:layout_width="90dp"
+        android:layout_width="130dp"
         android:layout_height="40dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="133dp"
-        android:layout_marginBottom="143dp"
+        android:layout_marginBottom="180dp"
         android:background="@drawable/button_design"
-        android:text="Click to Play"
+        android:text="Click to Replay"
         android:textColor="@android:color/white" />
 
 
