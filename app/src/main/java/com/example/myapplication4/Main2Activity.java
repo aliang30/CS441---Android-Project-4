@@ -156,11 +156,14 @@ public class Main2Activity extends AppCompatActivity {
             comment.setTextColor(Color.WHITE);
             comment.setText("Score: " + i);
 
+            /*
             if (i < -5) {
                 this.finish();
                 Intent intent = new Intent(this, Result.class);
                 startActivity(intent);
             }
+            */
+
         }
 
 
