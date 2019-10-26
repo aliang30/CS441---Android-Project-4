@@ -3,7 +3,6 @@ package com.example.myapplication4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Canvas;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -150,15 +149,16 @@ public class Main2Activity extends AppCompatActivity {
 
         if (hitDetect(rottonX, rottonY)) {
             //erase rotton apple
-            i -= 5;
-            rottonX = -100;
 
+            i -= 5;
             comment.setTextColor(Color.WHITE);
             comment.setText("Score: " + i);
 
+            rottonX = -100;
+
             /*
+            //Transitions to game over screen if score is below 5
             if (i < -5) {
-                this.finish();
                 Intent intent = new Intent(this, Result.class);
                 startActivity(intent);
             }
