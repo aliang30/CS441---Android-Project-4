@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-
 public class Result extends AppCompatActivity {
 
     private Button button;
@@ -25,11 +24,7 @@ public class Result extends AppCompatActivity {
 
         int score1 = getIntent().getIntExtra("SCORE", 0);
 
-
         score.setText("Score : " + score1);
-
-
-
 
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
@@ -38,8 +33,6 @@ public class Result extends AppCompatActivity {
                 openActivity1();
             }
         });
-
-
     }
 
     public void openActivity1() {

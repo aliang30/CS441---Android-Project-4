@@ -99,14 +99,14 @@ public class Main2Activity extends AppCompatActivity {
         rotton.setX(80.0f);
         rotton.setY(screenHeight + 80.0f);
 
-        //Running ball movement
+        //Running apple movement
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
-                        ballPos();
+                        applePos();
                     }
                 });
             }
@@ -114,8 +114,6 @@ public class Main2Activity extends AppCompatActivity {
 
         //blinking text animation
         blinkingEffect();
-
-
     }
 
     public void openActivity2() {
@@ -124,11 +122,10 @@ public class Main2Activity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
     //Apple movement
-    public void ballPos() {
+    public void applePos() {
 
-        //If either ball collision is detected
+        //If either apple collision is detected
         if (hitDetect(appleX, appleY)) {
             //erase apple1
             i += 1;
@@ -159,7 +156,6 @@ public class Main2Activity extends AppCompatActivity {
             rottonX = -100;
         }
 
-
         //apple speed
         appleY = appleY + 40;
 
@@ -181,7 +177,7 @@ public class Main2Activity extends AppCompatActivity {
         apple2.setX(apple2X);
         apple2.setY(apple2Y);
 
-        //rotton apple speed
+        //rotten apple speed
         rottonY = rottonY + 30;
 
         if(apple2.getY() > screenHeight) {
@@ -192,7 +188,7 @@ public class Main2Activity extends AppCompatActivity {
         rotton.setY(rottonY);
     }
 
-    //returns true if ball hits the basket
+    //returns true if apple hits the basket
     public boolean hitDetect(float x, float y) {
         if (image.getX() < x && x < (image.getX() + image.getWidth()) &&
                 image.getY() < y && y < (image.getY() + image.getHeight())) {
@@ -200,8 +196,6 @@ public class Main2Activity extends AppCompatActivity {
         }
         return false;
     }
-
-
 
     private OnTouchListener onTouchListener() {
         return new OnTouchListener() {

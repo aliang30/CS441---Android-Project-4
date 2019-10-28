@@ -1,0 +1,60 @@
+commit 7fe5e77ae6dfcbc0e998bb0743ea8997e4795a38
+Author: aliang30 <aliang30@binghamton>
+Date:   Sun Oct 27 22:58:53 2019 -0400
+
+    Fixed Game Over screen
+
+commit 49e2ba0ac79fb838733370bea8a7d934bf97e915
+Author: aliang30 <aliang30@binghamton>
+Date:   Sat Oct 26 19:36:27 2019 -0400
+
+    Modified layout
+
+commit 5a3d717a5ade9ed1e047ec4633c8bced6a2d8913
+Author: aliang30 <aliang30@binghamton>
+Date:   Fri Oct 25 01:07:18 2019 -0400
+
+    Fixed first and second activity layouts
+
+commit 118f915cfa1ec89cdc60de7c6437d6702a91976c
+Author: aliang30 <aliang30@binghamton>
+Date:   Tue Oct 22 17:44:24 2019 -0400
+
+    Added features + made game work
+
+commit c3b2dcd7a5a858f6b31f1cfa0d06f7e4cb66effc
+Author: aliang30 <aliang30@binghamton>
+Date:   Mon Oct 21 10:42:09 2019 -0400
+
+    Fixed multiple activities
+
+commit bc15a8d2a9c63f50f2ccf645b93c6b578d16a85f
+Merge: fb61355 e296938
+Author: aliang30 <aliang30@binghamton>
+Date:   Sun Oct 20 23:59:55 2019 -0400
+
+    Merge branch 'master' of https://github.com/aliang30/CS441---Android-Project-4
+
+commit fb61355ee7c56641d9a4c13f924b32229a81f39f
+Author: aliang30 <aliang30@binghamton>
+Date:   Sun Oct 20 23:59:30 2019 -0400
+
+    Working on multiple activities
+
+commit e29693819f544e3fddf89a9f17e22e07f96730b9
+Author: Alan Liang <aliang30@binghamton.edu>
+Date:   Thu Oct 17 23:59:33 2019 -0400
+
+    Updated README.md
+
+commit 3b3d63cb1f51696e75bffefed479173e79296ab1
+Author: aliang30 <aliang30@binghamton>
+Date:   Tue Oct 15 00:23:24 2019 -0400
+
+    Git commit
+
+commit e034d7622df60e7e17f4d89dcd826ef15f0c58b5
+Author: aliang30 <aliang30@binghamton>
+Date:   Tue Oct 15 00:19:19 2019 -0400
+
+    Initial commit
