@@ -62,7 +62,6 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-
         button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -115,10 +114,13 @@ public class Main2Activity extends AppCompatActivity {
 
         //blinking text animation
         blinkingEffect();
+
+
     }
 
     public void openActivity2() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(getApplicationContext(), Result.class);
+        intent.putExtra("SCORE", i);
         startActivity(intent);
     }
 
@@ -155,15 +157,6 @@ public class Main2Activity extends AppCompatActivity {
             comment.setText("Score: " + i);
 
             rottonX = -100;
-
-            /*
-            //Transitions to game over screen if score is below 5
-            if (i < -5) {
-                Intent intent = new Intent(this, Result.class);
-                startActivity(intent);
-            }
-            */
-
         }
 
 
